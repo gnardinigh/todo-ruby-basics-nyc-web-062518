@@ -4,7 +4,6 @@ end
 
 def assign_variable(value)
   name = value
-  name
 end
 
 def argue(argument)
@@ -15,8 +14,8 @@ def greeting(greeting, name)
   puts "#{greeting}, #{name}!"
 end
 
-def return_a_value(value)
-  r_value = value
+def return_a_value
+  return 
 end
 
 def last_evaluated_value
